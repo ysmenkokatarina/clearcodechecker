@@ -1,6 +1,6 @@
 {
   "name": "clearcodechecker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple JavaScript code quality checker that utilizes ESLint.",
   "main": "./src/index.js",
   "scripts": {
@@ -17,5 +17,9 @@
     "linting"
   ],
   "author": "ysmenkokatarina",
+  "dependencies": {
+    "validator": "^13.6.0",
+    "lodash": "^4.17.21"
+  },
   "license": "MIT"
 }
